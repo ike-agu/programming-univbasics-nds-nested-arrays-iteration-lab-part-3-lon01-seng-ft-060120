@@ -7,9 +7,10 @@ def join_nested_strings(src)
   row_index = 0
 new_array = []
 while row_index < mixed_data.count do
+  binding.pry
   element_index = 0
   string_value = (" ")
-binding.pry
+
   while element_index < src[row_index].count do
 
     p src[row_index][element_index]
