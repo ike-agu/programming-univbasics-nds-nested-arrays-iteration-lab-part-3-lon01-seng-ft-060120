@@ -10,7 +10,7 @@ while row_index < mixed_data.count do
 
   while element_index < src[row_index].count do
 
-    p mixed_data[row_index][element_index]
+    p src[row_index][element_index]
 
  
     
