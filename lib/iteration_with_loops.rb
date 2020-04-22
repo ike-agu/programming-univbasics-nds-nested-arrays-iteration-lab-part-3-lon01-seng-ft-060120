@@ -12,10 +12,10 @@ while row_index < src.count do
   string_value = (" ")
 
   while element_index < src[row_index].count do
-binding.pry
-     src[row_index][element_index]
-
- 
+#binding.pry
+    if  src[row_index][element_index] == src[row_index][element_index].to_s
+new_array << src[row_index][element_index]
+ end 
     
     element_index += 1
   end
@@ -23,5 +23,5 @@ binding.pry
   row_index += 1
  
 end
-
+new_array.join(" ")
 end
