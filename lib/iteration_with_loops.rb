@@ -12,7 +12,7 @@ while row_index < src.count do
   string_value = (" ")
 
   while element_index < src[row_index].count do
-
+binding.pry
     p src[row_index][element_index]
 
  
