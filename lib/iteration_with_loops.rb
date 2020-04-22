@@ -13,7 +13,7 @@ while row_index < src.count do
 
   while element_index < src[row_index].count do
 binding.pry
-    p ©[element_index]
+    p src[row_index][element_index]
 
  
     
